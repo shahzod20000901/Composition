@@ -42,6 +42,15 @@
             <Button x:Name="Button_name" Content="0 строка 0 столбец" Grid.Column="0" Grid.Row="0" Click="Button_name_OnClick" />
             <Button x:Name="Button_name_1" Content="Чтобы узнать номер стр и столб наж 0.0 кнопку" Grid.Column="3" Grid.Row="3" />
         </Grid>
+        
+        <WrapPanel DockPanel.Dock="Top" Background="Chartreuse" >
+            <Button   Content="Алиса" />
+            <Button   Content="Алиса" />
+            <Button   Content="Алиса" />
+            <Button   Content="Алиса" />
+            <Label Background="Chocolate" Content="Маша" />
+            <StackPanel Background="Bisque" />
+        </WrapPanel>
         </DockPanel>
     </DockPanel>
 </Window>
